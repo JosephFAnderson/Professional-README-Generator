@@ -4,8 +4,6 @@ const inquirer = require('inquirer');
 const genMark = require('./utils/generateMarkdown.js');
 const fs = require('fs');
 
-
-
 // TODO: Create an array of questions for user input
 const questions = [{
     name: "title",
@@ -27,7 +25,7 @@ const questions = [{
     name: "license",
     type: "list",
     choices: ["Apache 2.0", "MIT", "Boost Software License 1.0", "GNU GPL v3", "None"],
-    message: "What type of license do you have? Use arrow keys to navigate options."
+    message: "What type of license do you have?"
 }, {
     name: "contribute",
     type: "input",
@@ -57,7 +55,7 @@ function init() {
     inquirer.prompt(questions)
     .then( answers => {
         const readMe = genMark(answers);
-        writeToFile('./utils/README.md', readMe);
+        writeToFile('./genFile/README.md', readMe);
     });
 }
 

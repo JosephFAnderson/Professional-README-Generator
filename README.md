@@ -15,7 +15,7 @@ This project is a command-line aplication that takes in information about the us
 This project requires you to install the inquirer library from npmjs
 
 ## Usage
-When you start the application in the command line with node index.js, you will be given a series of prompts. Answers provided will be used to populate the README.md file that is created in the utils folder.
+When you start the application in the command line with node index.js, you will be given a series of prompts. Answers provided will be used to populate the README.md file that is created in the genFile folder.
 
 ## License
 

@@ -75,7 +75,8 @@ ${data.contribute}
 ${data.test}
 
 ## Questions
-[My github](https://github.com/${data.ghUser})\n
+Github username: ${data.ghUser}\n
+[Link to profile](https://github.com/${data.ghUser})\n
 If you have any additional questions email me at: ${data.email}
 `;
 }
