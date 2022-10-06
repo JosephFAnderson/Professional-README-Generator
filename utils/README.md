@@ -1,7 +1,7 @@
-# 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-## Description
+# Professional-README-Generator
 
+## Description
+This project is a command-line aplication that takes in information about the users project and then generates a README.md file based on the provided inputs.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,24 +12,21 @@
 - [Questions](#questions)
 
 ## Installation
-
+This project requires you to install the inquirer library from npmjs
 
 ## Usage
-
+When you start the application in the command line with node index.js, you will be given a series of prompts. Answers provided will be used to populate the README.md file that is created in the utils folder.
 
 ## License
-The license for this project is: MIT
 
-  Click [here](https://opensource.org/licenses/MIT) to read about it.
-  
 
 ## How to Contribute
-
+N/A
 
 ## Test Instructions
-
+N/A
 
 ## Questions
-[My github](https://github.com/)
+[My github](https://github.com/josephFAnderson)
 
-If you have any additional questions email me at: 
+If you have any additional questions email me at: joseph_anderson11@yahoo.com
